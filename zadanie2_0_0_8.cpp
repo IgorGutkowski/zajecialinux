@@ -7,7 +7,7 @@ auto main() -> int
     std::cout<<"Podaj liczbê\n";
     std::cin>>a;
 
-for(i=a;i>1;i--)
+for(i=1;i<=a;i++)
 {
     silnia=silnia*i;
 }

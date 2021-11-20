@@ -18,7 +18,7 @@ int main()
     j = 0;
     do
     {
-        std::cout<<ve.at(j);
+        std::cout<<ve.at(j)<<" ";
         j++;
         if((j%5==0))
         {

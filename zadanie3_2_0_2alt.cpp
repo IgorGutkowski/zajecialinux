@@ -15,7 +15,9 @@ int main()
     }while(n!=0);
 
     rozmiar = (ve.size()-1);
+    
     j = 0;
+    
     do
     {
         std::cout<<ve.at(j)<<" ";

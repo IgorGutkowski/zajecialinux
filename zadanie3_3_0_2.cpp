@@ -27,7 +27,7 @@ int main()
     std::cout<<"Wpisz dowolny znak rozny od zera. Wpisz 0, aby wylaczyc.\n";
     std::cin>>n;
 
-        if(n=0)
+        if(n==0)
         {
         break;
         }

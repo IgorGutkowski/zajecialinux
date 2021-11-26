@@ -1,9 +1,9 @@
 #include <iostream>
 #include <string>
 
-void print(std::string *tab)
+void print(std::string *wskaznik)
 {
-    std::cout <<& *tab<< " = " << *tab << std::endl;
+    std::cout <<& *wskaznik<< " = " << *wskaznik << std::endl;
 
 }
 int main()

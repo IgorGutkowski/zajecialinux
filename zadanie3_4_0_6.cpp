@@ -7,7 +7,7 @@ void *memset(void *ptr, int x, size_t n);               // ptr ==> Starting addr
   int main()
   {
     std::cout<<"Tablica przed uzyciem memset: ";
-    char tab[50] = "Najlepsza woda to Muszynianka";
+    char tab[30] = "Najlepsza woda to Muszynianka";
     puts (tab);                                         // puts zastepuje petle i cout do wyswietlenia zawartosci stringa
 
 

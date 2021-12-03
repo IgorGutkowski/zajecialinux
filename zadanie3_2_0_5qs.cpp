@@ -2,7 +2,7 @@
 
 void quicksort(int tab[],int poczatek,int koniec)
 {
-int pivot = tab[(poczatek+koniec)/2];                // pivot - œrodkowy element tablicy
+int pivot = tab[(poczatek+koniec)/2];                // pivot - Å›rodkowy element tablicy
 int p=(poczatek - 1);                                // p - pierwszy element tablicy
 int q=(koniec + 1);                                  // q - ostatni element tablicy
 do{
@@ -26,7 +26,7 @@ do{
  {
      quicksort(tab, p, koniec);                      // od p do konca tej partycji
  }
- else exit;
+ 
 }
 int main()
 {

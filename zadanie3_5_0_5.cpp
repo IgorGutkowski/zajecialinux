@@ -15,7 +15,7 @@ void funkcja(int *tab,int size)
 auto fpsort(int tab[],int size,void(*fp)(int *tab, int size)) -> void
 {
 
-    (fp)(tab,10);
+    (fp)(tab,size);
     std::sort(tab,tab+size);
     std::cout<<"Funkcja po sortowaniu: ";
     for(auto i =0; i< size; i++)

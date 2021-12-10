@@ -2,8 +2,10 @@
 #include <algorithm>
 
 
-void funkcja(int *tab,int size)
+void funkcja(void *tab,void *size)
 {
+    auto proxy = reinterpret_cast<int*>(tab);
+    auto proxy[2] = reinterpret_cast<int>(size);
     std::cout<<"Funkcja przed sortowaniem: ";
     for(auto i =0; i< size; i++)
     {
@@ -12,10 +14,10 @@ void funkcja(int *tab,int size)
     std::cout<<"\n";
 }
 
-auto fpsort(int tab[],int size,void(*fp)(int *tab, int size)) -> void
+auto fpsort(int tab[],int size,void(*fp)(void *tab ,void size)) -> void
 {
 
-    (fp)(tab,size);
+    (fp)(tab, size);
     std::sort(tab,tab+size);
     std::cout<<"Funkcja po sortowaniu: ";
     for(auto i =0; i< size; i++)

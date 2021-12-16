@@ -2,7 +2,7 @@
 #include <string>
 
 void Podaj();
-void wypisywacz(std::string str);
+void wypisywacz(int l,std::string str);
 void box_print(int l,std::string str1,std::string str2,std::string str3,std::string str4,std::string str5);
 
 auto main() -> int{

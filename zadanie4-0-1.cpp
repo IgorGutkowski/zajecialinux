@@ -4,7 +4,7 @@
 enum Permission {READ = 1, WRITE = 2, EXECUTE = 4};
 std::string getPermission(Permission);
 auto main() -> int{
- Permission zgody;
+ 
  int user[10] = {2,3,4,5,7,1,0};
  for(auto i=0;i<=7;i++)
  {

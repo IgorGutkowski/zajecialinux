@@ -13,7 +13,7 @@ int average_of(Student x)
 {
     int sum = 0;
     int ile= x.oceny.size();
-    for(auto i=0;i<=2;i++)
+    for(auto i=0;i<ile;i++)
     {
     x.oceny.at(i);
     sum = sum + x.oceny.at(i);
